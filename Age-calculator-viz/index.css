@@ -1,0 +1,121 @@
+body{
+    background-image: url(bg-age.png);
+    justify-content: center;
+    text-align: center;
+    padding: 100px 90px;
+    margin: 0%;
+}
+h4{
+    margin-top: 9px;
+    color: rgb(20, 18, 5);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: -9px;
+    margin-bottom: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: rgba(236, 236, 234, 0.932);
+}
+hr{
+    width: 100%;
+    color: black;
+    margin-top: -40px;
+    background-color: black;
+    display: block;
+    box-shadow:  0px 3px #bababb;
+}
+.title{
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(243, 240, 237);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.container{
+    background-color: rgba(223, 234, 235, 0.25);
+    display:inline-block;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: 9px solid rgba(170, 42, 42, 0.5);
+    border-radius: 2%;
+    border-style:double;
+    border-color: rgb(30, 183, 194);
+}
+.container .block{
+    font-size: 25;
+    
+    display: inline-flex;
+    flex-direction: column;
+   
+}
+
+#date , #month , #year{
+    padding: 5px 5px;
+    justify-content: center;
+    text-align: center;
+    width:90px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color:  rgba(36, 34, 34, 0.1);
+    color: rgb(245, 238, 238);
+    text-decoration: solid rgba(36, 34, 34, 0.5);
+    border-color: rgb(7, 248, 196);
+}
+#date::placeholder{
+    color: rgb(230, 229, 235);
+    text-align: center;
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ #month::placeholder{
+    color: rgb(241, 242, 250);
+    text-align: center;
+    font-size: 19px;
+}
+#month:hover, #date:hover, #year:hover{
+    background-color: rgb(147, 177, 204);
+    
+}
+#year::placeholder{
+    color: rgb(229, 229, 238);
+    text-align: center;
+    font-size: 19px;
+}
+#submit{
+    background-color: #21bace;
+    padding: 9px 9px;
+    justify-content: center;
+    margin-top: 30px;
+    
+    font-size: 19px;
+    color: white;
+    border-radius: 10%;
+}
+#submit::placeholder{
+    font-size: 19px;
+    width: 10px;
+}
+#submit:hover{
+    background-color: rgb(30, 248, 22);
+    color: rgb(22, 21, 21);
+    font-size: 19px;
+}
+.block .enter{
+    background-color: rgb(238, 226, 118);
+}
+.age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: rgb(255, 196, 0);
+    padding: 10px;
+}
